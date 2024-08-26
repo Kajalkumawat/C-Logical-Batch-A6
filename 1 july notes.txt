@@ -1,0 +1,178 @@
+data type :
+->it is used to store the value of variable. 
+->which type of value store in variable.
+
+two type :
+primitive data type 
+->int , char , float 
+
+=>int
+->it is used to store numeric value 
+->it is used to store zero , positive and negative 
+
+syntax:
+datatype variable_name=value;
+int a=89;
+
+format specifier :%d
+
+
+#include <stdio.h>
+int main()
+{
+    int a=67;
+    printf("%d",a);
+    return 0;
+}
+------------------------------------------------------------
+float :
+->it is used to store decimal values 
+->decimal positive and negative 
+->eg : 3.4, -1.2 , 9.8 
+
+format specifier :%f 
+
+#include <stdio.h>
+int main()
+{
+    float a=8.9;
+    printf("%f",a);
+    return 0;
+}
+------------------------------------------------------------
+char :
+->it is used to store character type (alphabets)
+->a ----z 
+->it always stored in single quote 
+
+#include <stdio.h>
+int main()
+{
+    char a='u';
+    printf("the value of a is :%c",a);
+    return 0;
+}
+------------------------------------------------------
+non-primitive data type 
+->functions , array pointer 
+
+variable :
+->it is work like a container and it is used to store the value in a memory and provide the value of variable.
+------------------------------------------------------
+56
+-8.9
+r
+
+#include <stdio.h>
+int main()
+{
+   int a=56;
+   printf("%d\n",a);
+   float b=-8.9;
+   printf("%f\n",b);
+   char c='r';
+   printf("%c",c);
+    return 0;
+-------------------------------------------------------
+two number addition : 
+2+ 2= 4 
+
+total number value =3 
+total number of variable =3 
+
+#include <stdio.h>
+int main()
+{
+  int a=2;
+  int b=2;
+  int c=a+b;
+  printf("%d",c);
+    return 0;
+}
+-------------------------------------------------------
+4.5+8-(2.2*2)+9/3
+
+4.5--->float 
+8---->int 
+2.2---->float 
+2 --->int 
+9---->int 
+3 --->int 
+
+#include <stdio.h>
+int main()
+{
+    float a=4.5;
+    int b=8;
+    float c=2.2;
+    int d=2;
+    int e=9;
+    int f=3;
+    float result =a+b-(c*d)+e/f;
+    printf("%f",result);
+    return 0;
+}
+-------------------------------------------------------
+operators :
+->operate the value of variables 
+->it is used to perform some specific task perform 
+
+
+types :
+->arithmetic operator
+->relational operator 
+->logical operator
+->assignment operator 
+->ternary operator 
+-------------------------------------------------------
+set of symbols 
+
+->arithmetic operator
+=>it is used for mathematical terms 
+
+symbols :
++ :addition 
+- :substraction
+* :multiplication
+/ :division
+% :modular 
+-------------------------------------------------------
+->relational operator 
+=>it is used to make conditions and work on true and false 
+
+symbols :
+< :less than
+> :greater than
+<= :less than equal to 
+>= :greater than equal to 
+== :equal equal to 
+!= :not equal to 
+
+------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

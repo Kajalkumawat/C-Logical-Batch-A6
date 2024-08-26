@@ -1,0 +1,100 @@
+sum of all even number : 
+-------------------------------------------------------
+1--->5
+1+2+3+4+5
+#include<stdio.h>
+int main(){
+    int a=1;
+    int sum=0;
+    while(a<=5){
+        sum=sum+a;
+        a++;
+    }
+    printf("%d",sum);
+    return 0;
+}
+-------------------------------------------------------
+count digit : 
+46452 :
+#include<stdio.h>
+int main(){
+   int num=46542;
+   int count=0;
+   while(num>0){
+       num=num/10;
+       count++;
+   }
+    printf("%d",count);
+    return 0;
+}
+-------------------------------------------------------
+reverse number : 
+#include<stdio.h>
+int main(){
+   int n=492;
+   int rem,sum=0;
+   while(n>0){
+       rem=n%10;
+       sum=sum*10+rem;
+       n=n/10;
+   }
+   printf("%d",sum);
+    return 0;
+}
+-------------------------------------------------------
+palindrome number :  	
+
+#include<stdio.h>
+int main(){
+   int n=12321;
+   int temp=n;
+   int rem,sum=0;
+   while(n>0){
+       rem=n%10;
+       sum=sum*10+rem;
+       n=n/10;
+   }
+   if(temp== sum){
+       printf("number is pallindrome ");
+   }
+   else{
+       printf("number is not pallindrome");
+   }
+    return 0;
+}
+-----------------------------------------------------------------
+Armstrong number : 
+#include<stdio.h>
+int main(){
+   int num=153;
+   int temp=num;
+   int rem,sum=0;
+   while(num>0){
+       rem=num%10;
+       sum=sum+rem*rem*rem;
+       num=num/10;
+   }
+   if(temp==sum){
+       printf("armstrong number");
+   }
+   else{
+       printf("not");
+   }
+    return 0;
+}
+---------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

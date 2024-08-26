@@ -1,0 +1,46 @@
+hello world print through function 
+
+-------------------------------------------------------------------------------
+addition
+sub
+multi
+div 
+through function 
+-------------------------------------------------------------------------------
+
+swap()  :with third variable 
+wswap() :without third variable 
+
+through function 
+-------------------------------------------------------------------------------
+a :
+	check Armstrong number 
+
+p :
+	check palindrome number 
+
+e :
+	check even number 
+
+r :
+	reverse number check 
+c :
+	count digit 
+
+s :
+	sum of digit 
+-------------------------------------------------------------------------------
+Write a C program to find power of any number x ^ y
+
+Write a C program to check whether a number is negative, positive or zero.
+
+Write a C program to find first and last digit of a number
+
+Write a C program to find sum of first and last digit of a number
+
+Write a C program to calculate product of digits of a number.
+
+Write a C program to print all Armstrong numbers between 100 to 1000.
+-------------------------------------------------------------------------------
+
+

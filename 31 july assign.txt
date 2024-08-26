@@ -1,0 +1,20 @@
+1)five friends name (no new line )
+
+2)five country name  (no new line )
+
+3)five city name  ( new line )
+
+4)five food name  (no new line )
+
+5)five fav cafe  ( new line )
+
+------------------------------------------------
+what is C ?
+
+what is object code in c ?
+
+what is compiler ?
+
+what is the features of C ?
+
+what is proecural programming language ?

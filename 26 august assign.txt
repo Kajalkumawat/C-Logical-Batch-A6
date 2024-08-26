@@ -1,0 +1,94 @@
+float -->return 
+
+ return and no argument 
+
+-------------------------------------------------------------------------------
+addition
+sub
+multi
+div 
+through function 
+-------------------------------------------------------------------------------
+
+swap()  :with third variable 
+wswap() :without third variable 
+
+through function 
+-------------------------------------------------------------------------------
+a :
+	check Armstrong number 
+
+p :
+	check palindrome number 
+
+e :
+	check even number 
+
+r :
+	reverse number check 
+c :
+	count digit 
+
+s :
+	sum of digit 
+
+f :
+	factorial 
+
+g :
+	Fibonacci
+---------------------------------------------------------------------
+	RETURN AND ARGUMENT 
+
+char , float :return and argument 
+
+float -->return 
+
+ return and no argument 
+
+-------------------------------------------------------------------------------
+addition
+sub
+multi
+div 
+through function 
+-------------------------------------------------------------------------------
+
+swap()  :with third variable 
+wswap() :without third variable 
+
+through function 
+-------------------------------------------------------------------------------
+a :
+	check Armstrong number 
+
+p :
+	check palindrome number 
+
+e :
+	check even number 
+
+r :
+	reverse number check 
+c :
+	count digit 
+
+s :
+	sum of digit 
+
+f :
+	factorial 
+
+g :
+	Fibonacci
+
+
+
+
+
+
+
+
+
+
+

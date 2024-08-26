@@ -1,0 +1,109 @@
+if else if : 
+--------------------------------------------------------------
+when want to give multiple conditions 
+
+syntax : 
+if(condition1){
+
+	//code 
+
+}
+else if(condition2){
+
+	//code 
+
+}
+else {
+
+
+}
+----------------------------------------------------------
+1 :one 
+2 :two 
+3 :three 
+input is not valid 
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    if(a==1){
+        printf("one");
+    }
+    else if(a==2){
+        printf("two");
+    }
+    else if(a==3){
+        printf("three");
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}
+--------------------------------------------------------
+a : 
+	two number input 
+	addition 
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter any character");
+    scanf("%c",&a);
+    if(a=='a'){
+        //two numbeer input 
+        int num1,num2,num3;
+        printf("enter the value of num1 and num2");
+        scanf("%d %d",&num1, &num2);
+        num3=num1+num2;
+        printf("%d",num3);
+    }
+    else{
+        printf("input is not valid");
+    }
+    return 0;
+}
+--------------------------------------------------------
+input one number 
+	2 and 3 both divisible
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    if(a%2==0 && a%3==0){
+        printf("this number is divisible by 2 and 3");
+    }
+    else{
+        printf("input is not valid ");
+    }
+    return 0;
+}
+-------------------------------------------------------
+1---->5 between 
+
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    if(a>=1 && a<=5){
+        printf("this number is betwen 1 to 5");
+    }
+    else{
+        printf("not match");
+    }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+

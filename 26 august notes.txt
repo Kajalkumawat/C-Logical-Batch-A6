@@ -1,0 +1,113 @@
+return and no argument :
+----------------------------------------------------------------------
+return : used return type => int , char , float 
+no argument : () :no data type and variable declare 
+----------------------------------------------------------------------
+int --->return 
+
+#include<stdio.h>
+//return and no argument 
+int show();
+int main(){
+    //print two way :
+    //first way :
+    printf("%d\n",show());
+    //second way : 
+    int n=show();
+    printf("%d",n);
+    return 0;
+}
+int show(){
+    int a=89;
+    return a;
+}
+----------------------------------------------------------------
+char --->return
+#include<stdio.h>
+char display();
+int main(){
+    printf("%c",display());
+    return 0;
+}
+char display(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);           
+    return a;
+} 
+----------------------------------------------------------------
+two number addition :
+#include<stdio.h>
+int add();
+int main(){
+    printf("%d",add());
+    return 0;
+}
+int add(){
+    int a=4,b=3,c;
+    c=a+b;
+    return c;
+}
+----------------------------------------------------------------
+return and argument :
+
+return :int , char , float 
+
+argument :() -->data type variable declared (paramters)
+
+#include<stdio.h>
+//return and argument 
+int show(int a);
+int main(){
+    printf("%d",show(12));
+    return 0;
+}
+int show(int a){
+    return a;
+}
+----------------------------------------------------------------
+addition of user input return and argument :
+#include<stdio.h>
+int add(int a,int b);
+int main(){
+    printf("%d",add(23,23));
+    return 0;
+}
+int add(int a,int b){
+    int c=a+b;
+    return c;
+}
+----------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

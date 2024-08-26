@@ -1,0 +1,160 @@
+no return and argument : 
+no return :void 
+argument :
+
+#include<stdio.h>
+//function declaration
+void show(int a);//parameter 
+int main(){
+    //function call 
+    show(5);//argument 
+    return 0;
+}
+//function defination 
+void show(int a){
+    printf("%d",a);
+} 
+--------------------------
+#include<stdio.h>
+//function declaration
+void show(int a);//parameter 
+int main(){
+   int a=9;
+    show(a);//argument 
+    return 0;
+}
+//function defination 
+void show(int a){
+    printf("%d",a);
+}
+---------------
+this concept is by pass value : 
+#include<stdio.h>
+//function declaration
+void show(int a);//parameter 
+int main(){
+  int num=89;
+    show(num);//argument 
+    return 0;
+}
+//function defination 
+void show(int a){
+    printf("%d",a);
+}
+------------------------------
+#include<stdio.h>
+//function declaration
+void show(int a);//parameter 
+int main(){
+  int num=56;
+  int abc=num;
+    show(abc);//argument 
+    return 0;
+}
+//function defination 
+void show(int a){
+    printf("%d",a);
+}
+-------------------------------
+two number addition through no return and argument user input : 
+#include<stdio.h>
+void add(int a,int b);
+int main(){
+    int num1,num2;
+    printf("enter the value of num1 and num2");
+    scanf("%d %d",&num1,&num2);
+    add(num1,num2);
+    return 0;
+}
+void add(int a,int b){
+    int c=a+b;
+    printf("%d",c);
+}
+---------------------------------------------------
+#include<stdio.h>
+void arm(int num);
+int main(){
+   char a;
+   printf("enter the value of a ");
+   scanf("%c",&a);
+   if(a=='a'){
+       int n;
+       printf("enter the value of n");
+       scanf("%d",&n);
+       arm(n);
+   }
+   else{
+       printf("input is not valid ");
+   }
+    return 0;
+}
+void arm(int num){
+    int temp=num, rem, sum=0;
+    while(num>0){
+        rem=num%10;
+        sum=sum+rem*rem*rem;
+        num=num/10;
+    }
+    if(temp==sum){
+        printf("armstrong number");
+    }
+    else{
+        printf("not");
+    }
+}
+----------------------------------------------------------
+#include<stdio.h>
+
+int main(){
+   for(int i=1;i<=5;i++){
+       for(int j=1;j<=5;j++){
+           if(i==1 || i==5 || i+j==5+1){
+               printf("*");
+           }
+           else {
+               printf(" ");
+           }
+       }
+       printf("\n");
+   }
+    return 0;
+}
+----------------------------------------------------------
+#include<stdio.h>
+
+int main(){
+    int n=1;
+   for(int i=1;i<=5;i++){
+       for(int j=1;j<=5;j++){
+          printf("%d ",n%2);
+          n++;
+       }
+       printf("\n");
+   }
+    return 0;
+}
+-------------------
+#include<stdio.h>
+
+int main(){
+    int n=2,pow=4;
+    int r;
+   for(int i=1;i<=pow;i++){
+       r =n*n;
+   }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+

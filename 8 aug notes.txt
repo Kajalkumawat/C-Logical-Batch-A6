@@ -1,0 +1,158 @@
+nested if :
+-----------------------------------------------------
+if(condition1)
+{
+	if(condition2)
+	{
+		printf(" ");
+	}
+}
+--------------------------------------------------------
+user input :
+age : greater than 18 
+	enter you weight :
+	check weight greater than 50
+		valid 
+#include<stdio.h>
+int main(){
+    int age;
+    printf("enter your age");
+    scanf("%d",&age);
+    if(age>=18){
+        int weight;
+        printf("enter your weight");
+        scanf("%d",&weight);
+        if(weight>=50){
+            printf("valid");
+        }
+        else{
+            printf("enter your wieght greater than 50");
+        }
+    }
+    else{
+        printf("enter your age greater than 18");
+    }
+    return 0;
+}
+--------------------------------------------------------------------------
+e :
+	check number is even or odd 
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter any one character");
+    scanf("%c",&a);
+    if(a=='e'){
+        int num;
+        printf("enter the number");
+        scanf("%d",&num);
+        if(num%2==0){
+            printf("even");
+        }
+        else{
+            printf("odd");
+        }
+    }
+    else{
+        printf("input is not valid ");
+    }
+    return 0;
+}
+--------------------------------------------------------------------------------------
+loops : 
+->make condition and conditions will be always run 
+->when condition will be true then loop work continuously when condition become false then loop will be terminated. 
+
+loops basic concepts :
+a)initialization
+b)condition
+c)increment/decrement 
+
+increment/decrement :
+a++ ++a 
+
+
+--------------------------------------------------------------------------------------
+loops :
+entry control
+->when condition is true then loop work regullary when condition become false them loop will be terminated 
+->while , for 
+
+exit control 
+->it must be run one time 
+->do while 
+
+----------------------------------------
+while loop :
+->keyword 
+->make condition and run the condition multiple times 
+
+syntax :
+while(condition)
+{
+
+	//code 
+
+}
+----------------------------------------
+#include<stdio.h>
+int main(){
+    int a=1;
+    while(a<=5){
+        printf("%d ",a);
+        a++;
+    }
+    return 0;
+}
+----------------------------------------------------------------------------
+5 4 3 2 1 
+#include<stdio.h>
+int main(){
+    int a=5;
+    while(a>=1){
+        printf("%d ",a);
+        a--;
+    }
+    return 0;
+}
+-----------------------------------------------------------------------
+1--->5 
+2 4 
+
+#include<stdio.h>
+int main(){
+   int a=1;
+   while(a<=5){
+      if(a%2==0){
+           printf("%d ",a);
+      }
+       a++;
+   }
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

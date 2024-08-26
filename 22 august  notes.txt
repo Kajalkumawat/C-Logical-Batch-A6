@@ -1,0 +1,161 @@
+functions :
+->function is a small block of code 
+->code reusability 
+->functions is also known as modular programming 
+
+---------------------------------------------------------------
+types :
+a)predefine function
+	printf(), scanf() , main() 
+
+b)user define function 
+	no return and no argument 
+	no return and argument 
+	return and no argument 
+	return and argument 
+--------------------------------------------------------------------------
+three ways :
+a)function declaration
+b)function definition
+c)function call 
+
+#include<stdio.h>
+//function declaration 
+int main(){
+    
+    //function call 
+    return 0;
+}
+//function defination 
+--------------------------------------------------------------------------
+function declaration :
+
+syntax:
+	return_type function_name();
+
+function definition :
+
+syntax:
+	return_type function_name(){
+
+	}
+
+function call :
+
+syntax:
+	function_name();
+--------------------------------------------------------------------------
+int a=89; 
+int :data type 
+a :variable 
+
+int a();
+int return type 
+a :function_name
+
+no return : void 
+return : primitive data type used (int , char , float ) 
+
+no argument :() :no datatype and variable 
+argument : (datatype variable) :used datatype and variable 
+--------------------------------------------------------------------------
+no return and no argument : 
+
+#include<stdio.h>
+//function declare 
+//syntax : return_type function_name();
+//no return and no argument 
+void show();
+int main(){
+    show();
+    return 0;
+}
+//function define 
+void show(){
+    printf("Hello World\n");
+}
+--------------------------------------------------------------------------
+two number addition through function :no return and no argument 
+#include<stdio.h>
+void add();
+int main(){
+    add();
+    return 0;
+}
+void add(){
+    int a,b,c;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("%d",c);
+}
+--------------------------------------------------------------------------
+#include<stdio.h>
+void add();
+void sub();
+int main(){
+    add();
+    sub();
+    return 0;
+}
+void add(){
+    int a,b,c;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("%d\n",c);
+}
+void sub(){
+    int a=3,b=2,c;
+    c=a-b;
+    printf("%d\n",c);
+}
+--------------------------------------------------------------------
+a :
+	addition function call
+
+s :
+	substraction function call 
+
+#include<stdio.h>
+void add();
+void sub();
+int main(){
+   char input;
+   printf("enter any single character");
+   scanf("%c",&input);
+   if(input=='a'){
+       add();
+   }
+   else if(input == 's'){
+       sub();
+   }
+   else{
+       printf("input is not valid ");
+   }
+    return 0;
+}
+void add(){
+    int a,b,c;
+    printf("enter the value of a and b ");
+    scanf("%d %d",&a,&b);
+    c=a+b;
+    printf("%d\n",c);
+}
+void sub(){
+    int a=3,b=2,c;
+    c=a-b;
+    printf("%d\n",c);
+}
+-------------------------------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

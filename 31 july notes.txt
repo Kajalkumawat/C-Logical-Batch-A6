@@ -1,0 +1,113 @@
+software :set of programs 
+	programs :set of instruction and commands 
+
+what is C : 
+->C is programming language 
+->C is mother language 
+->C is structural programming language
+->C is procedural programming language 
+->platform depedent 
+
+structural programming language :
+->it have particular structure 
+
+procedural programming language :
+->perform step by step 
+
+dependent :
+->when a file does not run on pc to another pc 
+
+independent : 
+->when a file easy to run one pc to another pc 
+
+extension : 
+.C 
+
+#include<stdio.h>
+int main(){
+    
+    return 0;
+}
+----------------------------------------------------
+#include<stdio.h>
+int main(){
+    printf("Hello WOrld");
+    return 0;
+}
+----------------------------------------------------
+hello how are you 
+welcome to india 
+
+#include<stdio.h>
+int main(){
+    printf("Hello how are you ?");
+    printf("Welcome to india");
+    return 0;
+}
+---------------
+#include<stdio.h>
+int main(){
+    printf("Hello how are you ?\n");
+    printf("Welco\nme to in\ndia");
+    return 0;
+}
+------------------------------
+#include<stdio.h>
+int main(){
+    printf("Hello WOrld");
+    return 0;
+}
+
+# :hash :preprocessor :predefine 
+
+include :
+->keyword 
+
+keywords :
+->reserved and fixed words 
+->it have particular meaning 
+
+< > :angular brackets 
+
+stdio :standard input output file 
+
+.h :extension of header file 
+
+#include<stdio.h> :header file | root file | library 
+
+int :datatype 
+
+main() :function :predefine function 
+->entry point 
+->it excute(run) the code 
+
+() :parenthesis
+[] :square bracket 
+{ } :curly bracket 
+
+printf() :predefine function 
+
+; :semicolon :used to line termination
+, :comma
+' ' :single quotes 
+" " :double quotes 
+
+return 0 :future read 
+----------------------------------------
+how to run the code :
+
+compiler :source code convert into machine code(object code) 
+
+object code :
+->heavy weight 
+->platform depend 
+->used to link the head file and code 
+
+
+
+
+
+
+
+
+

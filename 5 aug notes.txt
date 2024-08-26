@@ -1,0 +1,201 @@
+user input : 
+-------------------------------------------------------------
+#include<stdio.h>
+int main(){
+    int a;
+    printf("enter the value of a ");
+    scanf("%d",&a);
+    return 0;
+}
+-------------------------------------------------------------
+float : 
+#include<stdio.h>
+int main(){
+   float a;
+   printf("enter the decimal value");
+   scanf("%f",&a);
+   char b;
+   printf("enter any character");
+   scanf(" %c",&b);
+    return 0;
+}
+-------------------------------------------------------------
+two number addition :
+#include<stdio.h>
+int main(){
+   int a;
+   printf("enter the value of a ");
+   scanf("%d",&a);
+   int b;
+   printf("enter the value of b ");
+   scanf("%d",&b);
+   int c=a+b;
+   printf("%d",c);
+    return 0;
+}
+-------------------------------------------------------------
+comments : 
+
+single line 
+//
+
+
+multiline 
+/*	*/
+
+-------------------------------------------------------------
+control statements : 
+->it is used to make conditions and work true or false conditions
+
+types :
+i)decision making 
+	a)if 
+		simple if 
+		if else 
+		if else if 
+		nested if 
+
+	b)switch 
+
+ii)loops
+a)entry control statement 
+	for , while 
+
+b)exit control statement 
+	do while loop 
+
+iii)jumping statement 
+	break , continue 
+-------------------------------------------------------------
+decision making :
+->it is used to make condition and check conditions will be true or fasle 
+
+a)if 
+simple if :
+->it is a keyword 
+->it is used to make conditions 
+->it always work on true condition 
+
+syntax: 
+if(condition)
+{
+
+	//coding 
+
+}
+--------------------------------------------------------------------
+write a c program and check a number is greater than 10 : 
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>10){
+        printf("num is greater than 10");
+    }
+    return 0;
+}
+--------------------------------------------------------------------
+if else : 
+if :
+->it is a keyword 
+->it is used to make conditions 
+->it always work on true condition 
+
+else :
+->it is a keyword 
+->it does not make conditions 
+->it always work on false condition 
+
+syntax:
+if(condition)
+{
+	//code
+
+}
+else{
+	//code
+	
+}
+----------------------------------------------------------
+write a c program and check a number is greater than 10 or not: 
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num>10){
+        printf("num is greater than 10");
+    }
+    else{
+        printf("this number is not greater than 10");
+    }
+    return 0;
+}
+-------------------------------------------------------------
+check a number is even or odd : 
+
+even :divide by 2 
+odd :does not divide by 2 
+
+#include<stdio.h>
+int main(){
+    int num;
+    printf("enter the number");
+    scanf("%d",&num);
+    if(num%2==0){
+        printf("number is even");
+    }
+    else{
+        printf("nubmer is odd");
+    }
+    return 0;
+}
+-------------------------------------------------------------
+character match :
+a :apple 
+	input is not valid 
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    if(a=='a'){
+        printf("apple");
+    }
+    else{
+        printf("input is not valid ");
+    }
+    return 0;
+}
+-------------------------------------------------------------
+check a input is vowel or consonant 
+
+vowel :a, e, i , o, u
+
+consonant :
+
+#include<stdio.h>
+int main(){
+    char a;
+    printf("enter the character");
+    scanf("%c",&a);
+    
+    if(a=='a' || a=='e' || a=='i' || a=='o' || a=='u'){
+        printf("vowel");
+    }
+    else{
+        printf("consonant");
+    }
+    return 0;
+}
+-------------------------------------------------------------
+
+
+
+
+
+
+
+
+

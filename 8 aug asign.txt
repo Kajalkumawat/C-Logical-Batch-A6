@@ -1,0 +1,113 @@
+1)two number maximum 
+
+2)three number maximum 
+
+3)
+e :
+	even number check 
+
+v :
+	check voter id valid or not 
+
+s :
+	seasons 
+
+m :
+	marksheet 
+
+k :
+	keyboard 
+
+c :
+	vowel and consonant 
+
+input is not valid 
+-----------------------------------------------------------------------
+s :
+	w :with third variable number swap 
+	o :without third variable number swap 
+
+input is not valid 
+
+-----------------------------------------------------------------------
+1--->10 number print (dry run)
+
+1----->100 
+
+50--->100
+
+45---->89 
+
+
+10--->1 (dry run)
+
+100--->1 
+
+100-->50
+
+89----->45 
+------------------------------------------------------------------------
+even number 
+
+1--->10 number print (dry run)
+
+1----->100 
+
+50--->100
+
+45---->89 
+
+
+10--->1 (dry run)
+
+100--->1 
+
+100-->50
+
+89----->45 
+
+------------------------------
+odd number 
+1--->10 number print (dry run)
+
+1----->100 
+
+50--->100
+
+45---->89 
+
+
+10--->1 (dry run)
+
+100--->1 
+
+100-->50
+
+89----->45 
+
+--------------------------------------------
+a :
+	1--->10 number print 
+
+b :
+	56--->34 number print 
+
+c :
+	1---->100 even number 
+
+d :
+	87----->32 odd number 
+
+input is not valid 
+----------------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+

@@ -1,0 +1,122 @@
+1)arithmetic operator 
+2)relational operator 
+3)logical operator 
+4)assignment operator 
+5)ternary operator 
+------------------------------------------------
+3)logical operator 
+->used to check two or more conditions and condition will be true or false
+
+and :&&
+->it always work true condition 
+T && T :WORKING 
+T && F :NOT WORKING 
+F && T :NOT WORKING 
+F && F :NOT WORKING 
+
+
+or :|| 
+->it always work on one condition must be true 
+
+T || F :WORKING 
+F || T :WORKING 
+T || T :WORKING 
+F || F :NOT WORKING 
+------------------------------------------------
+4)assignment operator 
+->it is used to assign the value 
+
+symbol :
+= 
+
+int a=89;
+------------------------------------------------
+5) ternary operator 
+
+? : 
+------------------------------------------------
+concepts : 
+
+
+#include <stdio.h>
+
+int main()
+{
+    int a=1;
+    int a=9;
+    printf("%d ",a);
+    return 0;
+}
+variable name always unique
+------------------------------------------------
+value reassign concept : 
+#include <stdio.h>
+int main()
+{
+    int a=12;
+    a=9;
+    a=89;
+    a=67;
+    a=0;
+    printf("%d ",a);
+    return 0;
+}
+------------------------------------------------
+copy of value : 
+#include <stdio.h>
+int main()
+{
+   int a=1;
+   int b=a;
+   printf("%d\n",a);
+    printf("%d\n",b);
+    return 0;
+}
+1 1 
+------------------------------------------------
+swap number without third variable : 
+#include <stdio.h>
+int main()
+{
+    int a=10;
+    int b=20;
+    printf("the value of a is :%d\n",a);
+    printf("the value of b is :%d\n",b);
+    a=a+b; 
+    b=a-b;
+    a=a-b;
+    printf("the swap value of a is :%d\n",a);
+    printf("the swap value of b is :%d\n",b);
+    return 0;
+}
+------------------------------------------------
+swap number with third variable :
+#include <stdio.h>
+int main()
+{
+    int a=10;
+    int b=20;
+    int c;
+    printf("the value of a is :%d\n",a);
+    printf("the value of b is :%d\n",b);
+   c=a;
+   a=b;
+   b=c;
+    printf("the swap value of a is :%d\n",a);
+    printf("the swap value of b is :%d\n",b);
+    return 0;
+}
+------------------------------------------------
+
+
+
+
+
+
+
+
+
+
+
+
+
